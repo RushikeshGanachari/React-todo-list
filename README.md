@@ -20,9 +20,6 @@ npm start
 
 This will install the dependencies and start the application on http://localhost:3000.
 
-Screenshots:
-![Screenshot of Todo List App](./screenshots/Screenshot 2023-04-06 211627.png)
-
 Contributing:
 This project is open for contributions. Feel free to fork the repository and submit a pull request with any enhancements or bug fixes.
 
