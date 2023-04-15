@@ -1,50 +1,52 @@
-# React Weather App
 
-A simple React app that displays the weather for a chosen location using the OpenWeather API.
+# Todo List App
 
-## Table of Contents
+This is a simple todo list app built with React.
 
--   Installation
--   Usage
--   Contributing
--   License
+## Features
 
-## Installation
+-   Add new todo task.
+-   Delete a task.
+-   Clear all completed tasks.
 
-To install this app, simply clone this repository and run `npm install`.
+## Getting Started
 
-bashCopy code
+To run this app on your local machine, follow these steps:
 
-`git clone https://github.com/RushikeshGanachari/React-weather-app.git
-cd React-weather-app
-npm install` 
-
-You'll also need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/api) and set it as an environment variable named `REACT_APP_API_KEY`.
-
-bashCopy code
-
-`export REACT_APP_API_KEY=your_api_key_here` 
-
-## Usage
-
-To start the app, run `npm start`.
-
-bashCopy code
-
-`npm start` 
-
-The app should now be running at [http://localhost:3000/](http://localhost:3000/). Enter a city name in the search bar to get the current weather for that location.
+1.  Clone this repository.
+    
+    bashCopy code
+    
+    `git clone https://github.com/your-username/todo-list-app.git` 
+    
+2.  Navigate to the project directory.
+    
+    bashCopy code
+    
+    `cd todo-list-app` 
+    
+3.  Install the required dependencies.
+    
+    Copy code
+    
+    `npm install` 
+    
+4.  Start the development server.
+    
+    sqlCopy code
+    
+    `npm start` 
+    
+5.  Open [http://localhost:3000](http://localhost:3000/) in your browser.
+    
 
 ## Contributing
 
-Contributions are welcome! To contribute to this project, please follow these steps:
+If you would like to contribute to this project, please follow these guidelines:
 
-1.  Fork this repository.
-2.  Create a branch for your feature: `git checkout -b my-new-feature`.
-3.  Commit your changes: `git commit -am 'Add some feature'`.
-4.  Push to the branch: `git push origin my-new-feature`.
-5.  Submit a pull request.
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Commit your changes with descriptive commit messages.
+4.  Push your changes to your fork.
+5.  Create a pull request.
 
-## License
-
-This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
