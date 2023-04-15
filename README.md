@@ -1,31 +1,50 @@
-# Simple Todo List App in React
+# React Weather App
 
-This is a simple web application built using React that allows users to add and delete tasks from a todo list. The application is built with React components and state management, using the React Hooks API.
+A simple React app that displays the weather for a chosen location using the OpenWeather API.
 
-## Features
+## Table of Contents
 
--   Add tasks to the list
--   Mark tasks as completed
--   Delete tasks from the list
+-   Installation
+-   Usage
+-   Contributing
+-   License
 
-## Technology stack
+## Installation
 
--   React (v17.0.2)
--   JavaScript (ES6)
--   HTML5
--   CSS3
+To install this app, simply clone this repository and run `npm install`.
 
-## Instructions
+bashCopy code
 
-To run the application locally, clone the repository and run the following commands:
+`git clone https://github.com/RushikeshGanachari/React-weather-app.git
+cd React-weather-app
+npm install` 
 
-Copy code
+You'll also need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/api) and set it as an environment variable named `REACT_APP_API_KEY`.
 
-`npm install
-npm start` 
+bashCopy code
 
-This will install the dependencies and start the application on [http://localhost:3000](http://localhost:3000/).
+`export REACT_APP_API_KEY=your_api_key_here` 
+
+## Usage
+
+To start the app, run `npm start`.
+
+bashCopy code
+
+`npm start` 
+
+The app should now be running at [http://localhost:3000/](http://localhost:3000/). Enter a city name in the search bar to get the current weather for that location.
 
 ## Contributing
 
-This project is open for contributions. Feel free to fork the repository and submit a pull request with any enhancements or bug fixes.
+Contributions are welcome! To contribute to this project, please follow these steps:
+
+1.  Fork this repository.
+2.  Create a branch for your feature: `git checkout -b my-new-feature`.
+3.  Commit your changes: `git commit -am 'Add some feature'`.
+4.  Push to the branch: `git push origin my-new-feature`.
+5.  Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
